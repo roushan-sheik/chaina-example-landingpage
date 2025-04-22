@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "FOT-TsukuAOldMin Pr6N";
+  src: url("/fonts/FOT-TsukuAOldMinPr6N.woff2") format("woff2"),
+    url("/fonts/FOT-TsukuAOldMinPr6N.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   color: #efeadf;
 }
@@ -17,6 +25,9 @@ body {
 /* Alt of FreightBigCmp Pro */
 .poetic_title {
   font-family: "Shippori Mincho", serif;
+}
+.hero_font {
+  font-family: "FOT-TsukuAOldMin Pr6N", serif;
 }
 .body0 {
   font-size: 0.6875rem;
