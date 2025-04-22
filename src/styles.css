@@ -29,25 +29,38 @@ body {
 .hero_font {
   font-family: "FOT-TsukuAOldMin Pr6N", serif;
 }
+.bg_black {
+  background-color: #120d09;
+}
 .body0 {
-  font-size: 0.6875rem;
+  font-size: 0.6875rem; /* 11px */
 }
 .body1 {
-  font-size: 0.8125rem;
+  font-size: 0.8125rem; /* 13px */
 }
 .body2 {
-  font-size: 1rem;
+  font-size: 1rem; /* 16px */
 }
 .heading3 {
-  font-size: 1.75rem;
+  font-size: 2rem; /* 32px */
 }
 .heading4 {
-  font-size: 2rem;
+  font-size: 1.75rem; /* 28px */
 }
 .heading5 {
-  font-size: 1.25rem;
+  font-size: 1.5rem; /* 24px */
+  font-family: "Shippori Mincho", serif;
+}
+.heading6 {
+  font-size: 1.25rem; /* 20px */
 }
 /* border  */
 .border_b {
   border-bottom: 1px solid #efeadf;
+}
+
+.section_container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  overflow: hidden;
 }
