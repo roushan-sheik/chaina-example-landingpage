@@ -1,0 +1,42 @@
+* {
+  color: #efeadf;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  background: #120d09;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1rem;
+}
+/* Fonts  */
+.mincho {
+  font-family: "Shippori Mincho", serif;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+/* Alt of FreightBigCmp Pro */
+.poetic_title {
+  font-family: "Shippori Mincho", serif;
+}
+.body0 {
+  font-size: 0.6875rem;
+}
+.body1 {
+  font-size: 0.8125rem;
+}
+.body2 {
+  font-size: 1rem;
+}
+.heading3 {
+  font-size: 1.75rem;
+}
+.heading4 {
+  font-size: 2rem;
+}
+.heading5 {
+  font-size: 1.25rem;
+}
+/* border  */
+.border_b {
+  border-bottom: 1px solid #efeadf;
+}

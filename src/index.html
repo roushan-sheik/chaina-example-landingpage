@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hockeys Arena</title>
+    <title>Example Project</title>
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./Images/6.png" type="image/x-icon" />
     <!-- Font Awesome  -->
@@ -20,72 +20,33 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="./styles.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Font   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Internal CSS  -->
-    <style>
-      body {
-        font-family: "Manrope", sans-serif;
-      }
-
-      /* Reused Classes */
-      .red_primary {
-        /* color: #FF4240; */
-        /* color: #29ADB2 */
-        color: #00c897;
-      }
-
-      .black_primary {
-        color: #131318;
-      }
-
-      .black_secondary {
-        color: rgba(19, 19, 24, 0.6);
-      }
-
-      .bg_red {
-        /* background-color: #FF4240;!important; */
-        background-color: #00c897 !important;
-      }
-
-      /* container Padding 6.8125rem */
-      .container_padding {
-        padding: 0 6.8125rem;
-      }
-
-      .btn_primary {
-        color: #fff;
-        text-align: center;
-        font-size: 1.125rem;
-        font-weight: 700;
-        border-radius: 8px;
-        /* border: 1px solid #FF4240; */
-        border: 1px solid #00c897;
-        /* background: #FF4240; */
-        background: #00c897;
-        padding: 0.55rem 0.8rem;
-      }
-
-      @media screen and (max-width: 640px) {
-        .container_padding {
-          padding: 0;
-        }
-
-        .btn_primary {
-          font-size: 1rem;
-          padding: 0.4rem 0.7rem;
-        }
-      }
-    </style>
   </head>
 
   <body>
-    <button class="btn_primary">Click Me</button>
+    <!-- Header  -->
+    <header>
+      <nav class="border_b flex justify-between items-center px-4 py-8">
+        <div>
+          <h3 class="text cursor-pointer body1">例のサイト</h3>
+        </div>
+        <div>
+          <span class="body0">2025 May - OPEN</span>
+        </div>
+      </nav>
+    </header>
+    <!-- Main  -->
+    <main>
+      <button class="btn_primary">Click me</button>
+    </main>
+    <!-- Footer  -->
+    <footer>Footer</footer>
   </body>
 </html>
