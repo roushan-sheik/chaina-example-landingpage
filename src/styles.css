@@ -11,7 +11,7 @@
 }
 body {
   font-family: "Manrope", sans-serif;
-  background: #120d09;
+  background-color: #120d09;
   font-family: "Noto Sans JP", sans-serif;
   font-size: 1rem;
 }
@@ -32,6 +32,9 @@ body {
 .bg_black {
   background-color: #120d09;
 }
+.bg_sec_black {
+  background-color: #272522;
+}
 .body0 {
   font-size: 0.6875rem; /* 11px */
 }
@@ -50,9 +53,14 @@ body {
 .heading5 {
   font-size: 1.5rem; /* 24px */
   font-family: "Shippori Mincho", serif;
+  font-weight: 300;
 }
 .heading6 {
   font-size: 1.25rem; /* 20px */
+}
+.headingxl {
+  font-size: 72px; /* 72px */
+  font-family: "Shippori Mincho", serif;
 }
 /* border  */
 .border_b {
