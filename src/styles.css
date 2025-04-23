@@ -39,6 +39,9 @@ body {
   color: #64512c;
 }
 /* typography  varient   */
+.body {
+  font-size: 10px; /* 10px */
+}
 .body0 {
   font-size: 0.6875rem; /* 11px */
 }
@@ -47,6 +50,16 @@ body {
 }
 .body2 {
   font-size: 1rem; /* 16px */
+}
+.heading1 {
+  font-size: 3rem; /* 48px */
+  font-family: "Shippori Mincho", serif;
+  color: white;
+}
+.heading2 {
+  font-size: 2.5rem; /* 32px */
+  font-family: "Shippori Mincho", serif;
+  color: #efeadf;
 }
 .heading3 {
   font-size: 2rem; /* 32px */
@@ -63,12 +76,16 @@ body {
   font-size: 1.25rem; /* 20px */
 }
 .headingxl {
-  font-size: 72px; /* 72px */
+  font-size: 62px; /* 72px */
   font-family: "Shippori Mincho", serif;
+  color: #efeadf;
 }
 /* border  */
 .border_b {
   border-bottom: 1px solid #efeadf;
+}
+.line_throw {
+  border-bottom: 0.5px solid #efeadf;
 }
 
 .section_container {
