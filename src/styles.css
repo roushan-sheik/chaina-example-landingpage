@@ -80,6 +80,11 @@ body {
   font-family: "Shippori Mincho", serif;
   color: #efeadf;
 }
+.headinglg {
+  font-size: 92px; /* 72px */
+  font-family: "Shippori Mincho", serif;
+  color: #efeadf;
+}
 /* border  */
 .border_b {
   border-bottom: 1px solid #efeadf;
