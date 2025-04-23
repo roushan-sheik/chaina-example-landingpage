@@ -35,6 +35,10 @@ body {
 .bg_sec_black {
   background-color: #272522;
 }
+.color_brand {
+  color: #64512c;
+}
+/* typography  varient   */
 .body0 {
   font-size: 0.6875rem; /* 11px */
 }
