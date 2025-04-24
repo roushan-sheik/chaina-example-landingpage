@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>例のサイト</title>
+  <!-- Fav Icon  -->
+  <link rel="shortcut icon" href="./images/home-fav-icon.png" type="image/x-icon" />
+  <!-- Linking CSS file -->
+  <link rel="stylesheet" href="./styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Font   -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+<main class="lg:max-w-[464px] mx-auto relative overflow-hidden">
+  <!-- fixed bottom nav -->
+  <div class="fixed bottom-0 left-1/2 -translate-x-1/2 z-[111] w-full max-w-[464px] flex justify-between items-center "
+       style="background-image: url('./images/fixed/bg.png'); background-size: cover; background-position: center;">
+       <div class="h-[95px] flex flex-col items-start justify-center text-white text-center pl-6">
+         <p class=" font-semibold body1">事前登録受付中！</p>
+         <p class="mt-2 body">
+           基本操作は無料。アリバイ写真や<br />使用感をご確認いただけます。
+          </p>
+        </div>
+        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform">
+          <div class="mr-6 border h-[65px] p border-white p-2 gap-4 rounded-lg flex justify-between items-center text-white">
+            <div class="">
+              <p class="body">2025年5月リリース予定</p>
+              <p class="body2">登録はこちらから</p>
+            </div>
+            <div class="h-[14px] w-[17px]">
+              <img class="h-[14px] w-[17px]" src="./images/fixed/right-arrow.png" alt="">
+            </div>
+          </div>
+        </a>
+    </div>
+      
+    <header>
+      <nav class="border_b flex justify-between items-center px-4 py-8">
+        <div>
+          <h3 class="text cursor-pointer body1">例のサイト</h3>
+        </div>
+        <div>
+          <span class="body0">2025 May - OPEN</span>
+        </div>
+      </nav>
+    </header>
+    <!-- >>>>>>> Herro Section <<<<<<<<<  -->
+    <section class="section_container">
+
+      <!-- Hero image (girl) -->
+      <img src="./images/hero/hero-overlay.png" alt="Girl" class="absolute inset-0 w-full object-cover z-0" />
+
+      <!-- Overlay image -->
+      <!-- hero title box  -->
+      <div class="h-[326px] relative">
+        <div class="absolute bottom-[-20px] left-6 z-10 flex text-white heading3">
+          <p class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]">
+            守る。
+          </p>
+
+          <p class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]">
+            大切な人を
+          </p>
+
+          <p class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]">
+            自分と、
+          </p>
+        </div>
+      </div>
+      <!-- hero image box  -->
+      <div class="z-0">
+        <img class="w-full" src="./images/hero/hero-girl.png" />
+        <img class="w-full" src="./images/hero/hero-2.png " />
+      </div>
+      </div>
+    </section>
+    <!-- >>>>>>> Protect Your World Section <<<<<<<<<  -->
+    <section class="section_container">
+      <!-- heading  -->
+      <div class="px-2 py-20 mb-8 relative">
+        <div class="flex justify-center items-center">
+          <img src="./images/protect-your-world/Protect Your World.png" />
+        </div>
+        <!-- text  -->
+        <div class="absolute left-[18%] bottom-4  flex justify-center flex-col">
+          <p class="text-center font-light heading3">あなたを助ける</p>
+          <p class="text-center font-light heading3">アリバイがここに。</p>
+        </div>
+      </div>
+      <!--  protect image box  -->
+      <div class="flex justify-center px-6 pb-16">
+        <img class="w-full" src="./images/protect-your-world/protect-world-mobile.png" />
+      </div>
+    </section>
+    <!-- >>>>>>> Our Value Section <<<<<<<<<  -->
+    <section class=" h-[65rem] bg-black relative">
+      <div class="h-[400px]  w-full bg-cover bg-center relative bg-no-repeat"
+        style="background-image: url('./images/our-value/our-value-bg.png');">
+        <div class="absolute px-2 left-4 bottom-28">
+          <h6 class="heading5 mb-4 ">Our Value</h6>
+          <p class="heading4 tracking-[0.2em]">
+            アリバイ写真が、<br />
+            大切な人と過ごす <br />
+            時間を作ります。
+          </p>
+
+        </div>
+      </div>
+      <!-- banner box  -->
+      <div class=" absolute top-[300px] w-full left-0s p-6 flex flex-col">
+        <div class="relative w-full">
+          <img class="w-full" src="./images/our-value/our-value-banner-1.png" />
+          <div class="bg_black absolute bottom-0 left-0 px-2 py-1 text-lg">編集前</div>
+        </div>
+        <div class="relative w-full">
+          <img class="w-full" src="./images/our-value/our-value-banner-2.png" />
+          <div class="bg_black absolute bottom-0 left-0 px-2 py-1 text-lg">編集後</div>
+        </div>
+        <!-- description  -->
+        <div class="mt-7 text-xl">
+          <p>会食の写真にあなたを追加。<br /> もしもの時に使えるアリバイ画像を制作 <br /> 致します。</p>
+        </div>
+      </div>
+
+    </section>
+    <!-- >>>>>>> Our Service Section <<<<<<<<<  -->
+    <section class="section_container bg-black">
+      <div class="h-[431px] w-full bg-cover bg-center relative bg-no-repeat"
+        style="background-image: url('./images/our-service/our-service-flash.png');">
+        <div class="absolute bottom-8 w-full ">
+          <div class="flex justify-center">
+            <h2 class="headingxl text-center">Our Service</h2>
+          </div>
+          <p class="text-center heading6">家族の安心も、自由も手に入れる。</p>
+        </div>
+      </div>
+      <!-- box 1  -->
+      <div class="box_1 mt-4 mb-16">
+        <div class="relative h-[400px] my-8">
+          <div class="bg_sec_black absolute w-[18.5625rem] z-0 h-[410px] left-0 top-0">
+            <!-- count img  -->
+            <div class="z-10 absolute top-10 right-[-50px]">
+              <img src="./images/our-service/01.png" alt="01">
+            </div>
+          </div>
+          <!-- service image  -->
+          <div class="absolute bottom-[3rem] px-6 h-[235px]  w-full">
+            <img class="w-full" src="./images/our-service/our-service-1.png" alt="">
+          </div>
+          <div>
+
+          </div>
+        </div>
+        <!-- description -->
+        <div class="px-12 mt-12">
+          <h4 class="heading5  mb-4">アリバイ写真ダウンロード</h4>
+          <p class="text-base text-justify leading-8">会食やゴルフなど、様々なシチュエーショ<br />ンのアリバイ写真をダウンロードして保<br />存いただけます。<br />
+            ご家族へのメッセージに添付する等、リス<br />クヘッジにお使いください。</p>
+        </div>
+      </div>
+      <!-- box 2  -->
+      <div class="box_2 my-4 mb-16">
+        <div class="relative h-[400px] my-8">
+          <div class="bg_sec_black absolute w-[18.5625rem] z-0 h-[410px] right-0 top-0">
+            <!-- count img  -->
+            <div class="z-10 absolute top-8 left-[-50px]">
+              <img src="./images/our-service/02.png" alt="01">
+            </div>
+          </div>
+          <!-- service image  -->
+          <div class="absolute bottom-[3rem] px-6 h-[235px]  w-full">
+            <img class="w-full" src="./images/our-service/our-service-2.png" alt="">
+          </div>
+          <div>
+
+          </div>
+        </div>
+        <!-- description -->
+        <div class="px-12 mt-12">
+          <ul class="list-disc marker:[color:#64512C] pl-5">
+            <li class="heading0 mb-2">追加料金</li>
+          </ul>
+
+          <h4 class="heading5  mb-4">アリバイ写真人物追加加工</h4>
+          <p class="text-base text-justify leading-8">「あなた」が写ったリアルなアリバイ写真<br />を制作いたします。
+            <br />窓への写り込み等に配慮した自然な写真<br />をPhotoshop加工でご用意。<br /> 「疑惑をかわす切り札」として、ご活用い<br />ただけます。
+          </p>
+        </div>
+      </div>
+      <!-- box 3  -->
+      <div class="box_3 my-4 mb-16">
+        <div class="relative h-[400px] my-8">
+          <div class="bg_sec_black absolute w-[18.5625rem] z-0 h-[410px] left-0 top-0">
+            <!-- count img  -->
+            <div class="z-10 absolute top-4 right-[-50px]">
+              <img src="./images/our-service/03.png" alt="01">
+            </div>
+          </div>
+          <!-- service image  -->
+          <div class="absolute bottom-[3rem] px-6 h-[235px]  w-full">
+            <img class="w-full" src="./images/our-service/our-service-3.png" alt="">
+          </div>
+          <div>
+
+          </div>
+        </div>
+        <!-- description -->
+        <div class="px-12 mt-12">
+          <ul class="list-disc marker:[color:#64512C] pl-5">
+            <li class="heading0 mb-2">追加料金</li>
+          </ul>
+
+          <h4 class="heading5  mb-4">アリバイお土産</h4>
+          <p class="text-base text-justify leading-8">リアルなお土産をご用意いたします。<br />
+            旅行先の特産品や人気アイテムを厳選<br />し、自然な形でご提供。<br />疑惑をかわすだけでなく、家族への気配<br />りとしても、ご活用いただけます。</p>
+        </div>
+      </div>
+    </section>
+    <!-- >>>>>>> Our Strengths Section <<<<<<<<<  -->
+    <section class="bg-[#120D09]">
+      <div class="h-[400px] mb-[230px] w-full bg-cover bg-center relative bg-no-repeat"
+        style="background-image: url('./images/our-strengths/background.png');">
+        <div class="absolute px-2 left-4 bottom-28">
+          <h6 class="heading5 mb-4 ">Our Strengths</h6>
+          <p class="heading4 tracking-[0.2em]">
+            リスクを排除する<br /> 例のサイトの強み
+          </p>
+        </div>
+        <!-- banner  -->
+        <div class="absolute px-6 bottom-[-200px] w-full">
+          <img class="w-full" src="./images/our-strengths/point-1.png" alt="">
+        </div>
+      </div>
+      <!-- point - 1 content   -->
+      <div class="mx-12 pb-10">
+        <h3 class="heading5 color_brand">Point.01</h3>
+        <p class="heading5">「検索避け」された<br /> リアルな画像をご提供</p>
+        <div class="my-10 mx-4">
+          <p class="leading-8 text-base">フリー素材・有料素材・拾い画の写真<br />は、画像検索で一発アウト。その場のご<br />まかしは効くもののハイリスク。</p>
+        </div>
+        <p class="text-base mb-4">当サービスなら...</p>
+        <p class="text-base leading-8">「インターネット上にアップされていない<br />写真」をご提供。有志から収集した写真の<br />ため、画像検索も怖くありません。</p>
+      </div>
+      <!-- point - 2    -->
+      <div class="px-6 my-12 ">
+        <div class="w-full">
+          <img class="w-full" src="./images/our-strengths/point-2.png" alt="">
+        </div>
+        <div class="pb-10 mt-8">
+          <h3 class="heading5 color_brand">Point.02</h3>
+          <p class="heading5">シーンに適した<br /> 多様なアリバイをご用意</p>
+          <div class="my-10 mx-4">
+            <p class="leading-8 text-base">個人の発想力には限界があるため、架<br />空のアリバイは証拠がワンパターンに<br />なりがち。</p>
+          </div>
+          <p class="text-base mb-4">当サービスなら...</p>
+          <p class="text-base leading-8">写真や音声動画、お土産など、多様なア<br />リバイをご用意。パターン化を回避するこ<br />とで、疑念を持たせません。</p>
+        </div>
+      </div>
+    </section>
+    <!-- >>>>>>> Service Price Section <<<<<<<<<  -->
+    <section>
+      <!-- heading -->
+      <div class="h-[14.25rem] my-4 relative">
+        <!-- Background image -->
+        <div class="absolute right-0 z-0">
+          <img src="./images/service-price/service-price-bg.png" alt="">
+        </div>
+
+        <!-- Heading content -->
+        <div class="pt-[2rem] h-full relative z-10">
+          <h1 class="headingxl text-center">Service Price</h1>
+          <h4 class="text-center heading6 text-white">ご利用料金</h4>
+        </div>
+      </div>
+
+      <!-- plan  -->
+      <div class="h-[410px] my-12 relative">
+        <!-- Background image -->
+        <div class="absolute z-0 h-[410px] left-0">
+          <img class="h-full" src="./images/service-price/plan-bg.png" alt="">
+        </div>
+
+        <!-- Content over image -->
+        <div class="w-full relative z-10 p-12">
+          <div class="flex items-end gap-3">
+            <h3 class="heading1">Plan</h3>
+            <p class="mb-3">ご利用プラン</p>
+          </div>
+          <p class="body">※各プラン全て自動更新</p>
+
+          <!-- plan box  -->
+          <div>
+            <div class="flex items-center justify-between my-4 line_throw">
+              <p class="text-lg mt-4">1ヶ月プラン</p>
+              <p class="heading2">18,000<span class="text-base">円</span></p>
+            </div>
+          </div>
+          <div class="bg-[#EFEADF] mt-6 mb-2">
+            <p class="text-xs text-[#120D09] text-center p-1 ">1ヶ月以上ご利用ならこちらがお得！</p>
+          </div>
+          <div>
+            <div class="flex items-center justify-between my-4 line_throw">
+              <div class="">
+                <p class="text-lg ">6ヶ月プラン</p>
+                <span class="body0">月額9,900円×6ヶ月</span>
+              </div>
+              <p class="heading2">59,400<span class="text-base">円</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+    <!-- >>>>>>> Option Section <<<<<<<<<  -->
+    <section>
+      <!-- plan  -->
+      <div class="h-[700px] my-12 relative">
+        <!-- Background image -->
+        <div class="absolute z-0 h-[700px] right-0">
+          <img class="h-full" src="./images/option/background.png" alt="">
+        </div>
+
+        <!-- Content over image -->
+        <div class="w-full relative z-10 p-12">
+          <div class="flex items-end gap-3">
+            <h3 class="heading1">Option</h3>
+            <p class="mb-3 text-sm">追加サービス</p>
+          </div>
+          <!-- option box  -->
+          <div class="mb-4">
+            <div class="flex items-center justify-between  mt-4 line_throw">
+              <p class="text-lg mt-4">アリバイ写真ダウンロード</p>
+              <p class="heading5 mb-1 text-end">無料</p>
+            </div>
+            <div class=" flex items-center justify-between mt-6 line_throw">
+              <div class="">
+                <p class="text-lg ">アリバイ写真人物追加加工</p>
+              </div>
+              <p class="heading5 mb-1 text-end"><span class="text-xs">1枚</span>6,600<span class="text-xs">円</span></p>
+            </div>
+            <div class=" flex items-center justify-between mt-6 line_throw">
+              <div class="">
+                <p class="text-lg ">アリバイ音声動画</p>
+              </div>
+              <p class="heading5 mb-1 text-end"><span class="text-xs">1本</span>6,600<span class="text-xs">円</span></p>
+            </div>
+            <div class=" flex items-center justify-between mt-6 line_throw">
+              <div class="">
+                <p class="text-lg ">アリバイLINE</p>
+              </div>
+              <div>
+                <div class="border-dotted  border-b-[1px] border-b-[#EFEADF]">
+                  <p class="heading5"><span class="text-xs">月4回まで</span>無料</p>
+                </div>
+                <p class="heading5 mb-1 text-end"><span class="text-xs">1本</span>6,600<span class="text-xs">円</span></p>
+              </div>
+            </div>
+            <div class=" flex items-center justify-between mt-6 line_throw">
+              <div class="">
+                <p class="text-lg ">アリバイ相談チャット</p>
+              </div>
+              <p class="heading5 mb-1 text-end">無料</p>
+            </div>
+            <div class=" flex items-center justify-between mt-6 line_throw">
+              <div class="">
+                <p class="text-lg ">アリバイお土産</p>
+              </div>
+              <div>
+                <div class="border-dotted  border-b-[1px] border-b-[#EFEADF]">
+                  <p class="heading5">お土産代＋送料</p>
+                </div>
+                <p class="heading5 mb-1 text-end"><span class="text-xs">手数料</span>500<span class="text-xs">円</span></p>
+              </div>
+            </div>
+            <div class=" flex items-center justify-between mt-6 line_throw">
+              <div class="">
+                <p class="text-lg ">アリバイ請求書</p>
+              </div>
+              <p class="heading5 mb-1 text-end">無料</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- >>>>>>> Scene Section <<<<<<<<<  -->
+    <section>
+      <div class="h-[267px] mb-[230px] w-full bg-cover bg-center relative bg-no-repeat"
+        style="background-image: url('./images/scene/background.png');">
+
+        <!-- Heading Content -->
+        <div class="absolute px-2 right-4 bottom-20">
+          <h6 class="heading5 mb-2 text-end">Scene</h6>
+          <p class="heading4 tracking-[0.2em]">
+            アリバイ写真の使い方
+          </p>
+        </div>
+
+        <!-- Banner and image -->
+        <div class="absolute pl-6 bottom-[-200px] w-full ">
+          <img class="z-10 h-[235px] w-full" src="./images/scene/scene-1.png" alt="">
+          <!-- 1.png image -->
+          <div class="absolute z-10 w-[87px]  right-0 bottom-[-56px] h-[102px]">
+            <img src="./images/scene/1.png" alt="">
+          </div>
+        </div>
+      </div>
+      <!-- content box  -->
+      <div class="mx-12 mb-6">
+        <h5 class="heading5 mb-4 ">頻繁にご連絡なさる方の場合</h5>
+        <p class="leading-8 text-base">日々「奥様に送るメッセージ」としてご活<br />用いただけます。<br />
+          泊まりを伴う・日を跨ぐといった、ご家族<br />にとってイレギュラーなシーンでお使いく<br />ださい。<br />
+          メッセージにアリバイ写真を添えることで<br />、ご家族を気にかけている姿勢を見せつ<br />つ、安心感を与えられます。</p>
+      </div>
+      <!-- scene - 2  -->
+      <div class="mb-8 mt-14">
+        <div class="relative w-full h-[235px]">
+          <div class="pr-6 h-[235px] overflow-hidden">
+            <img class="z-10 w-full" src="./images/scene/scene-2.png" alt="">
+            <!-- 2.png image -->
+            <div class="absolute z-10 w-[87px] left-8 bottom-[-52px] h-[102px]">
+              <img src="./images/scene/2.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- content box  -->
+        <div class="mx-12 my-6">
+          <h5 class="heading5 mb-4 ">ご連絡が最小限の方の場合</h5>
+          <p class="leading-8 text-base">「証拠」としてアリバイ写真を持っておくこ<br />とをお勧めします。<br />
+            日常的な会話の流れで「出張が多い」「会<br />食ばっかり」などと言われた時に、保存し<br />ていた写真をご提示いただけます。<br />
+            アリバイ写真によって「出張」や「会食」に<br />信憑性が生まれ、ご家族に安心感を与え<br />られます。</p>
+        </div>
+      </div>
+    </section>
+    <!-- >>>>>>> Message Section <<<<<<<<<  -->
+    <section class="w-full mt-20 overflow-hidden">
+      <div class="bg-cover overflow-hidden bg-center px-6 relative bg-no-repeat rotate-300 min-h-[780px]  w-full"
+        style="background-image: url('./images/message/background.png');">
+        <div class="absolute top-28 w-full">
+          <h1 class="headinglg   ">Message</h1>
+          <p class="heading6">本音の開発秘話</p>
+          <div class="px-6 mb-2 mt-20">
+            <p class="heading4">家族も、お金も、<br />
+              失うかもしれない。</p>
+          </div>
+          <div class="px-6">
+            <p class="heading6">大切な全てを守るために、<br />
+              リスクと向き合う必要を感じた。</p>
+          </div>
+        </div>
+        <div class="">
+          <div class="  mx-auto flex justify-center w-full">
+            <div class=" absolute bottom-16 px-12 w-full">
+              <div class="border-[1px]  p-3 border-[#EFEADF]>
+                <p class=" text-[14px]">オーナーの佐藤です。<br /> 偽名を名乗ることをお許しください。<br />
+                名前を明かすことはできませんが、これ<br />から綴る「思い」に嘘はございません。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mb-4 px-12 w-full">
+        <p class="text-[14px]">私も皆様と同様に、家庭での生活と彼女と<br />の時間、どちらも大切にしています。<br /> どちらも愛していますし、失いたくありませ<br />ん。</p>
+      </div>
+      <div class="mb-8  px-12 w-full">
+        <p class="text-[14px]">日々を過ごす中で、家族と彼女、二つの世<br />界をうまく両立できていると感じていまし<br />たが、ある時「失うリスク」を考えて怖くなり<br />ました。</p>
+      </div>
+      </div>
+
+      <!-- image box - 1  -->
+      <div class="h-[169px] relative mt-14 mb-10">
+        <div class="absolute w-full h-[10.5625rem] right-0 pl-6">
+          <img class="w-full" src="./images/message/image-1.png" alt="">
+        </div>
+      </div>
+
+      <div class="mb-6 px-12 w-full">
+        <p class="heading4">もし、離婚になったら。</p>
+      </div>
+      <div class="mb-8 px-12 w-full">
+        <p class="text-[14px]">考えたくもないことです。<br /> もし最悪の事態になれば、家族との絆は<br />もちろんのこと、相当の資金も失うでしょう。</p>
+      </div>
+      <div class="mb-8  px-12 w-full">
+        <p class="text-[14px]">私の場合、年収は3000万円。<br />
+          株式や不動産を資産形成し、合計3億くら<br />いの資産があるため、離婚する際は、財産<br />分与や養育費として、ざっと2億程度の<br />支払いが発生するでしょう。</p>
+      </div>
+      <div class="mb-4 px-12 w-full">
+        <p class="text-[14px]">絶対にバレてはならない……。<br /> 冷や汗が出た瞬間でした。</p>
+      </div>
+      <!-- image box-2  -->
+      <div class="h-[169px] relative mt-14 mb-10">
+        <div class="absolute w-full h-[10.5625rem] left-0 pr-6">
+          <img class="w-full" src="./images/message/image-2.png" alt="">
+        </div>
+      </div>
+
+      <div class="mb-6 px-12 w-full">
+        <p class="heading4">より手軽に、<br /> リアルなアリバイを。</p>
+      </div>
+      <div class="mb-8 px-12 w-full">
+        <p class="text-[14px]">まさに私自身が切望するサービスとして、<br />「例のサイト」を立ち上げました。</p>
+      </div>
+      <div class="mb-8  px-12 w-full">
+        <p class="text-[14px]">「たった1泊の旅行」だと思って、準備<br />を怠っていませんか？<br /> 「会いたい」彼女の連絡に応えることを優<br />先して家族が見えなくなっていませんか？</p>
+      </div>
+      <div class="mb-4 px-12 w-full">
+        <p class="text-[14px]">絶対にバレてはならない……。<br /> 冷や汗が出た瞬間でした。</p>
+      </div>
+      <!-- content   box 3 -->
+      <div class="mb-6 px-12 w-full">
+        <p class="heading4">百聞は一見にしかず。</p>
+      </div>
+      <div class="mb-8 px-12 w-full">
+        <p class="text-[14px]">アリバイ写真は「画像」として視覚情報に<br />訴えます。<br /> 写真を提示するのと、しないのでは、相手<br />の印象が大きく変わります。</p>
+      </div>
+      <div class="mb-8  px-12 w-full">
+        <p class="text-[14px]">手間の少ないリスクヘッジで、高い効果が<br />期待できます。</p>
+      </div>
+      <div class="mb-4 px-12 w-full">
+        <p class="text-[14px]">皆様の大切な世界を守るために、等サー<br />ビスをご活用いただけたら幸いです。</p>
+      </div>
+    </section>
+    <!-- >>>>>>> Registration Section <<<<<<<<<  -->
+    <section class="h-[490px]  mt-16 relative">
+
+      <div class="h-[490px]  w-full bg-cover bg-center relative bg-no-repeat"
+        style="background-image: url('./images/registration/background.png');">
+        <div class="absolute px-2 left-4 top-20">
+          <h6 class="heading5 mb-4 ">Registration</h6>
+          <p class="heading5 tracking-[0.2em]">
+            2025年5月リリース予定
+          </p>
+          <p class="heading4 tracking-[0.2em]">
+            事前登録受付中！ </p>
+          <p class="text-sm mt-8 tracking-[0.2em]">
+            基本操作は無料。アリバイ写真の詳細<br />や サービスの使用感をご確認いただけます。</p>
+
+
+        </div>
+        <div class="w-full absolute px-6 bottom-16 ">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform">
+            <div class="flex justify-between items-center px-8 py-6 w-full mt-8 bg-[#120D09] rounded-[66px] h-[112px]">
+              <div>
+                <h4 class="heading4">REGISTRATION</h4>
+                <p>登録はこちら</p>
+              </div>
+              <div class="bg-[#221F1E] flex justify-center items-center h-[64px] w-[64px] rounded-full">
+                <img class="w-[20px] h-[15px]" src="./images/registration/right-arrow.png" alt="">
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- Footer  -->
+    <footer class=" bg-black">
+      <div class="body1 px-6 pt-8">
+        <ul>
+          <a href="https://drive.google.com/file/d/1fJXrLZz6ye8YBzLkuofrzpYZz7u4XwDA/view?usp=sharing">
+            <li class="body1 mb-2 cursor-pointer">利用規約</li>
+          </a>
+          <a href="https://drive.google.com/file/d/1EzmlTZBAK4MTkyjSz_bdjJTd1cY5ySUH/view?usp=sharing">
+            <li class="body1 mb-2 cursor-pointer">プライバシーポリシー</li>
+          </a>
+          <a href="https://drive.google.com/file/d/1M3qMlBwXdsYxiZjZ3ZhnlFyjd7rtrTwe/view?usp=sharing">
+            <li class="body1 mb-2 cursor-pointer">特定商取引法に基づく表記</li>
+          </a>
+        </ul>
+      </div>
+      <div>
+        <p class="body1 px-6 py-8 ">© 2025 例のサイト All Rights Reserved.</p>
+      </div>
+      <!-- spacing div   -->
+      <div class="mt-24"></div>
+    </footer>
+    </div>
+  </main>
+</body>
+
+</html>
