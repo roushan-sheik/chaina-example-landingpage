@@ -39,30 +39,43 @@
       }
     </style>
   </head>
-  <body class="text-white font-sans bg-black flex justify-center">
+  <body class="font-sans bg_black flex justify-center">
     <!-- Main layout container with max-width of 1460px -->
     <div
-      class="max-w-[1460px] w-full bg-black flex min-h-screen flex-col lg:flex-row relative"
+      class="max-w-[1460px] w-full bg_black flex min-h-screen flex-col lg:flex-row relative"
     >
       <!-- Left Column: Hidden on small screens, fixed on large -->
       <div
-        class="hidden lg:block w-[730px] bg-black text-white p-6 fixed top-0 h-screen overflow-y-auto flex flex-col justify-between left-column"
+        class="hidden lg:block w-[730px] bg_black p-6 fixed top-0 h-screen overflow-y-auto flex flex-col justify-between left-column"
       >
         <div class="flex justify-center items-center h-full flex-col">
           <div>
-            <h1 class="text-7xl mb-4">例のサイト</h1>
-            <h2 class="text-xl mb-2">事前登録受付中</h2>
-            <p class="text-sm text-gray-400 mb-6">
+            <h1 class="headinglg text-center mb-4">例のサイト</h1>
+            <h2 class="heading4 text-center mb-2">事前登録受付中</h2>
+            <p class="text-xs text-center leading-6 mb-6">
               基本操作は無料。<br />写真や使用感をご確認ください。
             </p>
-            <button
-              class="bg-[#ad8d3c] text-white px-6 py-4 rounded-lg w-full text-center"
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform"
             >
-              <p class="text-sm">2025年5月リリース予定</p>
-              <p class="text-lg font-semibold">事前登録はこちら</p>
-            </button>
+              <button
+                class="bg_brand mt-8 px-8 py-6 rounded-lg w-full text-center"
+              >
+                <div class="flex items-center justify-between">
+                  <div>
+                    <p class="text-sm">2025年5月リリース予定</p>
+                    <p class="text-lg font-semibold">事前登録はこちら</p>
+                  </div>
+                  <img
+                    class="w-[18px] h-[14px]"
+                    src="./images/fixed/right-arrow.png"
+                    alt=""
+                  />
+                </div>
+              </button>
+            </a>
           </div>
-          <p class="text-sm text-gray-400">
+          <p class="text-sm bottom-14 absolute text_brand">
             © 2025 例のサイト ALL Rights Reserved.
           </p>
         </div>
@@ -70,7 +83,7 @@
 
       <!-- Middle Column: Always visible, scrollable -->
       <div
-        class="w-full lg:w-[464px] lg:ml-[730px] lg:mr-[266px] mx-auto text-black p-6 min-h-screen overflow-y-auto"
+        class="w-full lg:w-[464px] lg:ml-[730px] lg:mr-[266px] mx-auto text-black px-6 min-h-screen overflow-y-auto"
       >
         <main class="lg:max-w-[464px] mx-auto relative overflow-hidden">
           <!-- Fixed bottom nav -->
@@ -852,9 +865,9 @@
 
       <!-- Right Column: Hidden on small screens, fixed on large -->
       <div
-        class="hidden lg:flex w-[266px] bg-black text-white p-6 fixed top-0 h-screen overflow-y-auto flex-col justify-start right-column"
+        class="hidden lg:flex w-[266px] bg_black text-white p-6 fixed top-0 h-screen overflow-y-auto flex-col justify-start right-column"
       >
-        <div class="flex justify-center items-center mt-20">
+        <div class="flex justify-center items-center mt-14">
           <ul class="space-y-2 text-sm">
             <a href="#value">
               <li class="mb-2">Value</li>

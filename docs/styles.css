@@ -38,6 +38,12 @@ body {
 .color_brand {
   color: #64512c;
 }
+.bg_brand {
+  background-color: #876b17;
+}
+.text_brand {
+  color: #b29642;
+}
 /* typography  varient   */
 .body {
   font-size: 10px; /* 10px */
