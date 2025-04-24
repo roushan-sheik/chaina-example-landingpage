@@ -18,26 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      /* Ensure fixed columns stay within the 1460px max-width container */
-      .left-column {
-        left: calc((100% - 1460px) / 2);
-      }
-      .right-column {
-        right: calc((100% - 1460px) / 2);
-      }
-      /* Fix for fixed bottom nav on small screens */
-      @media (max-width: 1023px) {
-        .fixed-bottom-nav {
-          position: relative;
-          transform: none;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          max-width: 100%;
-        }
-      }
-    </style>
+    <style></style>
   </head>
   <body class="font-sans bg_black flex justify-center">
     <!-- Main layout container with max-width of 1460px -->
@@ -48,36 +29,38 @@
       <div
         class="hidden lg:block w-[730px] bg_black p-6 fixed top-0 h-screen overflow-y-auto flex flex-col justify-between left-column"
       >
-        <div class="flex justify-center items-center h-full flex-col">
-          <div>
-            <h1 class="headinglg text-center mb-4">例のサイト</h1>
-            <h2 class="heading4 text-center mb-2">事前登録受付中</h2>
-            <p class="text-xs text-center leading-6 mb-6">
-              基本操作は無料。<br />写真や使用感をご確認ください。
-            </p>
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform"
-            >
-              <button
-                class="bg_brand mt-8 px-8 py-6 rounded-lg w-full text-center"
+        <div class="flex justify-center items-center h-full">
+          <div class="flex justify-center items-center flex-col">
+            <div>
+              <h1 class="headinglg text-center mb-4">例のサイト</h1>
+              <h2 class="heading4 text-center mb-2">事前登録受付中</h2>
+              <p class="text-xs text-center leading-6 mb-6">
+                基本操作は無料。<br />写真や使用感をご確認ください。
+              </p>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform"
               >
-                <div class="flex items-center justify-between">
-                  <div>
-                    <p class="text-sm">2025年5月リリース予定</p>
-                    <p class="text-lg font-semibold">事前登録はこちら</p>
+                <button
+                  class="bg_brand mt-8 px-8 py-6 rounded-lg w-full text-center"
+                >
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <p class="text-sm">2025年5月リリース予定</p>
+                      <p class="text-lg font-semibold">事前登録はこちら</p>
+                    </div>
+                    <img
+                      class="w-[18px] h-[14px]"
+                      src="./images/fixed/right-arrow.png"
+                      alt=""
+                    />
                   </div>
-                  <img
-                    class="w-[18px] h-[14px]"
-                    src="./images/fixed/right-arrow.png"
-                    alt=""
-                  />
-                </div>
-              </button>
-            </a>
+                </button>
+              </a>
+            </div>
+            <p class="text-sm bottom-14 absolute text_brand">
+              © 2025 例のサイト ALL Rights Reserved.
+            </p>
           </div>
-          <p class="text-sm bottom-14 absolute text_brand">
-            © 2025 例のサイト ALL Rights Reserved.
-          </p>
         </div>
       </div>
 

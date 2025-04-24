@@ -105,9 +105,21 @@ body {
   overflow: hidden;
 }
 
+/* Ensure fixed columns stay within the 1460px max-width container */
 .left-column {
   left: calc((100% - 1460px) / 2);
 }
 .right-column {
   right: calc((100% - 1460px) / 2);
+}
+/* Fix for fixed bottom nav on small screens */
+@media (max-width: 1023px) {
+  .fixed-bottom-nav {
+    position: relative;
+    transform: none;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+  }
 }
