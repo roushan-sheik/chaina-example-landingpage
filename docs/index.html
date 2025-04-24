@@ -17,20 +17,42 @@
 </head>
 
 <body>
-  <main class="lg:max-w-[464px] mx-auto overflow-hidden">
-    <div>
-  <header>
-    <nav class="border_b flex justify-between items-center px-4 py-8">
-      <div>
-        <h3 class="text cursor-pointer body1">例のサイト</h3>
-      </div>
-      <div>
-        <span class="body0">2025 May - OPEN</span>
-      </div>
-    </nav>
-  </header>
+<main class="lg:max-w-[464px] mx-auto relative overflow-hidden">
+  <!-- fixed bottom nav -->
+  <div class="fixed bottom-0 left-1/2 -translate-x-1/2 z-[111] w-full max-w-[464px] flex justify-between items-center "
+       style="background-image: url('./images/fixed/bg.png'); background-size: cover; background-position: center;">
+       <div class="h-[95px] flex flex-col items-start justify-center text-white text-center pl-6">
+         <p class=" font-semibold body1">事前登録受付中！</p>
+         <p class="mt-2 body">
+           基本操作は無料。アリバイ写真や<br />使用感をご確認いただけます。
+          </p>
+        </div>
+        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform">
+          <div class="mr-6 border h-[65px] p border-white p-2 gap-4 rounded-lg flex justify-between items-center text-white">
+            <div class="">
+              <p class="body">2025年5月リリース予定</p>
+              <p class="body2">登録はこちらから</p>
+            </div>
+            <div class="h-[14px] w-[17px]">
+              <img class="h-[14px] w-[17px]" src="./images/fixed/right-arrow.png" alt="">
+            </div>
+          </div>
+        </a>
+    </div>
+      
+    <header>
+      <nav class="border_b flex justify-between items-center px-4 py-8">
+        <div>
+          <h3 class="text cursor-pointer body1">例のサイト</h3>
+        </div>
+        <div>
+          <span class="body0">2025 May - OPEN</span>
+        </div>
+      </nav>
+    </header>
     <!-- >>>>>>> Herro Section <<<<<<<<<  -->
-  <section class="section_container">
+    <section class="section_container">
 
       <!-- Hero image (girl) -->
       <img src="./images/hero/hero-overlay.png" alt="Girl" class="absolute inset-0 w-full object-cover z-0" />
@@ -557,8 +579,10 @@
       <div>
         <p class="body1 px-6 py-8 ">© 2025 例のサイト All Rights Reserved.</p>
       </div>
+      <!-- spacing div   -->
+      <div class="mt-24"></div>
     </footer>
-  </div>
+    </div>
   </main>
 </body>
 
