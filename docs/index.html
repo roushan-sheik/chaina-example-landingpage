@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Example Project</title>
+  <title>例のサイト</title>
   <!-- Fav Icon  -->
-  <link rel="shortcut icon" href="./Images/6.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./images/home-fav-icon.png" type="image/x-icon" />
   <!-- Linking CSS file -->
   <link rel="stylesheet" href="./styles.css" />
   <script src="https://cdn.tailwindcss.com"></script>
@@ -17,18 +17,40 @@
 </head>
 
 <body>
-  <main class="lg:max-w-[464px] mx-auto overflow-hidden">
-    <div>
-  <header>
-    <nav class="border_b flex justify-between items-center px-4 py-8">
-      <div>
-        <h3 class="text cursor-pointer body1">例のサイト</h3>
-      </div>
-      <div>
-        <span class="body0">2025 May - OPEN</span>
-      </div>
-    </nav>
-  </header>
+<main class="lg:max-w-[464px] mx-auto relative overflow-hidden">
+  <!-- fixed bottom nav -->
+  <div class="fixed bottom-0 left-1/2 -translate-x-1/2 z-[111] w-full max-w-[464px] flex justify-between items-center "
+       style="background-image: url('./images/fixed/bg.png'); background-size: cover; background-position: center;">
+       <div class="h-[95px] flex flex-col items-start justify-center text-white text-center pl-6">
+         <p class=" font-semibold body1">事前登録受付中！</p>
+         <p class="mt-2 body">
+           基本操作は無料。アリバイ写真や<br />使用感をご確認いただけます。
+          </p>
+        </div>
+        
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform">
+          <div class="mr-6 border h-[65px] p border-white p-2 gap-4 rounded-lg flex justify-between items-center text-white">
+            <div class="">
+              <p class="body">2025年5月リリース予定</p>
+              <p class="body2">登録はこちらから</p>
+            </div>
+            <div class="h-[14px] w-[17px]">
+              <img class="h-[14px] w-[17px]" src="./images/fixed/right-arrow.png" alt="">
+            </div>
+          </div>
+        </a>
+    </div>
+      
+    <header>
+      <nav class="border_b flex justify-between items-center px-4 py-8">
+        <div>
+          <h3 class="text cursor-pointer body1">例のサイト</h3>
+        </div>
+        <div>
+          <span class="body0">2025 May - OPEN</span>
+        </div>
+      </nav>
+    </header>
     <!-- >>>>>>> Herro Section <<<<<<<<<  -->
     <section class="section_container">
 
@@ -442,7 +464,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <div class="mb-4 px-12 w-full">
         <p class="text-[14px]">私も皆様と同様に、家庭での生活と彼女と<br />の時間、どちらも大切にしています。<br /> どちらも愛していますし、失いたくありませ<br />ん。</p>
@@ -523,15 +544,17 @@
 
         </div>
         <div class="w-full absolute px-6 bottom-16 ">
-          <div class="flex justify-between items-center px-8 py-6 w-full mt-8 bg-[#120D09] rounded-[66px] h-[112px]">
-            <div>
-              <h4 class="heading4">REGISTRATION</h4>
-              <p>登録はこちら</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform">
+            <div class="flex justify-between items-center px-8 py-6 w-full mt-8 bg-[#120D09] rounded-[66px] h-[112px]">
+              <div>
+                <h4 class="heading4">REGISTRATION</h4>
+                <p>登録はこちら</p>
+              </div>
+              <div class="bg-[#221F1E] flex justify-center items-center h-[64px] w-[64px] rounded-full">
+                <img class="w-[20px] h-[15px]" src="./images/registration/right-arrow.png" alt="">
+              </div>
             </div>
-            <div class="bg-[#221F1E] flex justify-center items-center h-[64px] w-[64px] rounded-full">
-              <img class="w-[20px] h-[15px]" src="./images/registration/right-arrow.png" alt="">
-            </div>
-          </div>
+          </a>
         </div>
 
       </div>
@@ -539,11 +562,27 @@
     </section>
     <!-- Footer  -->
     <footer class=" bg-black">
-      <div>
-        <p class="body1 px-6 py-8">© 2025 例のサイト All Rights Reserved.</p>
+
+      <div class="body1 px-6 pt-8">
+        <ul>
+          <a href="https://drive.google.com/file/d/1fJXrLZz6ye8YBzLkuofrzpYZz7u4XwDA/view?usp=sharing">
+            <li class="body1 mb-2 cursor-pointer">利用規約</li>
+          </a>
+          <a href="https://drive.google.com/file/d/1EzmlTZBAK4MTkyjSz_bdjJTd1cY5ySUH/view?usp=sharing">
+            <li class="body1 mb-2 cursor-pointer">プライバシーポリシー</li>
+          </a>
+          <a href="https://drive.google.com/file/d/1M3qMlBwXdsYxiZjZ3ZhnlFyjd7rtrTwe/view?usp=sharing">
+            <li class="body1 mb-2 cursor-pointer">特定商取引法に基づく表記</li>
+          </a>
+        </ul>
       </div>
+      <div>
+        <p class="body1 px-6 py-8 ">© 2025 例のサイト All Rights Reserved.</p>
+      </div>
+      <!-- spacing div   -->
+      <div class="mt-24"></div>
     </footer>
-  </div>
+    </div>
   </main>
 </body>
 
