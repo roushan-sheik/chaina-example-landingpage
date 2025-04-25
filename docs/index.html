@@ -12,13 +12,13 @@
     />
     <!-- Linking CSS file -->
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./mobile.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <style></style>
   </head>
   <body class="font-sans bg_black flex justify-center">
     <!-- Main layout container with max-width of 1460px -->
@@ -255,8 +255,14 @@
                   class="bg_sec_black absolute w-[18.5625rem] z-0 h-[410px] left-0 top-0"
                 >
                   <!-- Count img -->
-                  <div class="z-10 absolute top-10 right-[-50px]">
-                    <img src="./images/our-service/01.png" alt="01" />
+                  <div
+                    class="z-10 absolute top-10 right-[-30px] lg:right-[-50px]"
+                  >
+                    <img
+                      class="w-[4rem] h-[4rem]"
+                      src="./images/our-service/01.png"
+                      alt="01"
+                    />
                   </div>
                 </div>
                 <!-- Service image -->
@@ -284,7 +290,9 @@
                   class="bg_sec_black absolute w-[18.5625rem] z-0 h-[410px] right-0 top-0"
                 >
                   <!-- Count img -->
-                  <div class="z-10 absolute top-8 left-[-50px]">
+                  <div
+                    class="z-10 absolute top-8 ight-[-30px] lg:right-[-50px]"
+                  >
                     <img src="./images/our-service/02.png" alt="02" />
                   </div>
                 </div>
@@ -317,7 +325,9 @@
                   class="bg_sec_black absolute w-[18.5625rem] z-0 h-[410px] left-0 top-0"
                 >
                   <!-- Count img -->
-                  <div class="z-10 absolute top-4 right-[-50px]">
+                  <div
+                    class="z-10 absolute top-4 right-[-30px] lg:right-[-50px]"
+                  >
                     <img src="./images/our-service/03.png" alt="03" />
                   </div>
                 </div>
@@ -478,7 +488,7 @@
           <!-- Option Section -->
           <section>
             <!-- Plan -->
-            <div class="h-[700px] my-12 relative">
+            <div class="lg:h-[700px] h-[600px] lg:my-12 my-14 relative">
               <!-- Background image -->
               <div class="absolute z-0 h-[700px] right-0">
                 <img
@@ -488,7 +498,7 @@
                 />
               </div>
               <!-- Content over image -->
-              <div class="w-full relative z-10 p-12">
+              <div class="w-full relative z-10 lg:p-12 pt-12 pb-4 px-4">
                 <div class="flex items-end gap-3">
                   <h3 class="heading1">Option</h3>
                   <p class="mb-3 text-sm">追加サービス</p>
@@ -789,7 +799,7 @@
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfPUUhYTLSmsO3fiKsP_H0bnMFl9EB3TG0XsUjQ6JGY3WjpTg/viewform"
                 >
                   <div
-                    class="flex justify-between items-center px-8 py-6 w-full mt-8 bg-[#120D09] rounded-[66px] h-[112px]"
+                    class="flex justify-between items-center lg:px-8 lg:py-6 px-6 py-1 w-full mt-8 bg-[#120D09] rounded-[66px] h-[112px]"
                   >
                     <div>
                       <h4 class="heading4">REGISTRATION</h4>

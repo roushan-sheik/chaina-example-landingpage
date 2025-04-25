@@ -1,0 +1,40 @@
+/* Media Query for Small Devices (below 640px) */
+@media (max-width: 640px) {
+  /* Adjust typography variants for smaller screens */
+  .body {
+    font-size: 8px; /* Reduced from 10px */
+  }
+  .body0 {
+    font-size: 0.625rem; /* Reduced from 11px to 10px */
+  }
+  .body1 {
+    font-size: 0.75rem; /* Reduced from 13px to 12px */
+  }
+  .body2 {
+    font-size: 0.875rem; /* Reduced from 16px to 14px */
+  }
+  .heading1 {
+    font-size: 2.25rem; /* Reduced from 48px to 36px */
+  }
+  .heading2 {
+    font-size: 1.875rem; /* Reduced from 32px to 30px */
+  }
+  .heading3 {
+    font-size: 1.5rem; /* Reduced from 32px to 24px */
+  }
+  .heading4 {
+    font-size: 1.375rem; /* Reduced from 28px to 22px */
+  }
+  .heading5 {
+    font-size: 1.25rem; /* Reduced from 24px to 20px */
+  }
+  .heading6 {
+    font-size: 1rem; /* Reduced from 20px to 16px */
+  }
+  .headingxl {
+    font-size: 48px; /* Reduced from 60px to 48px */
+  }
+  .headinglg {
+    font-size: 54px; /* Reduced from 66px to 54px */
+  }
+}
