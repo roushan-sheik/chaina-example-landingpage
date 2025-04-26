@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./mobile.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- animation css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@400;500;600;700&display=swap"
@@ -31,7 +33,7 @@
       >
         <div class="flex justify-center items-center h-full">
           <div class="flex justify-center items-center flex-col">
-            <div>
+            <div data-aos="fade-up" data-aos-duration="1000">
               <h1 class="headinglg text-center mb-4">例のサイト</h1>
               <h2 class="heading4 text-center mb-2">事前登録受付中</h2>
               <p class="text-xs text-center leading-6 mb-6">
@@ -882,5 +884,12 @@
         </div>
       </div>
     </div>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init();
+      });
+    </script>
   </body>
 </html>
