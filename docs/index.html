@@ -11,8 +11,8 @@
       type="image/x-icon"
     />
     <!-- Linking CSS file -->
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./mobile.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/mobile.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- animation css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -123,42 +123,54 @@
             </nav>
           </header>
 
-          <!-- Hero Section -->
-          <section class="section_container">
-            <!-- Hero image (girl) -->
-            <img
-              src="./images/hero/hero-overlay.png"
-              alt="Girl"
-              class="absolute inset-0 w-full object-cover z-0"
-            />
-            <!-- Hero title box -->
-            <div data-aos="fade-down" data-aos-duration="1000" class="h-[326px] relative">
-              <div
-                class="absolute bottom-[-20px] left-6 z-10 flex text-white heading3"
-              >
-                <p
-                  class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]"
-                >
-                  守る。
-                </p>
-                <p
-                  class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]"
-                >
-                  大切な人を
-                </p>
-                <p
-                  class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]"
-                >
-                  自分と、
-                </p>
-              </div>
-            </div>
-            <!-- Hero image box -->
-            <div class="z-0">
-              <img data-aos="fade-left" data-aos-duration="1000" class="w-full" src="./images/hero/hero-girl.png" />
-              <img data-aos="fade-right" data-aos-duration="1000" class="w-full" src="./images/hero/hero-2.png" />
-            </div>
-          </section>
+<!-- Hero Section -->
+<section class="section_container relative">
+  <!-- Hero image (girl) -->
+  <img
+    src="./images/hero/hero-overlay.png"
+    alt="Girl"
+    class="absolute inset-0 w-full object-cover z-0"
+  />
+
+  <!-- Hero Section Video Background -->
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    src="./videos/hero-bg.mp4"
+    class="absolute inset-0 w-full h-full object-cover z-0"
+  ></video>
+
+  <!-- Hero title box -->
+  <div data-aos="fade-down" data-aos-duration="1000" class="h-[326px] relative z-10">
+    <div
+      class="absolute bottom-[-20px] left-6 z-10 flex text-white heading3"
+    >
+      <p
+        class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]"
+      >
+        守る。
+      </p>
+      <p
+        class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]"
+      >
+        大切な人を
+      </p>
+      <p
+        class="[writing-mode:vertical-rl] hero_font [letter-spacing:0.4em]"
+      >
+        自分と、
+      </p>
+    </div>
+  </div>
+
+  <!-- Hero image box -->
+  <div class="z-10 relative">
+    <img data-aos="fade-left" data-aos-duration="1000" class="w-full" src="./images/hero/hero-girl.png" />
+    <img data-aos="fade-right" data-aos-duration="1000" class="w-full" src="./images/hero/hero-2.png" />
+  </div>
+</section>
 
           <!-- Protect Your World Section -->
           <section class="section_container">
