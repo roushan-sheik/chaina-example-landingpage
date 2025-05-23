@@ -29,14 +29,14 @@ A modern responsive website built using HTML5, Tailwind CSS (via CDN), and AOS a
 ## 📂 Folder Structure
 
 ```bash
-└─ .                                    # Root directory of the project
-   ├─ README.MD           # Project documentation
+└─ .                                # Root directory of the project
+   ├─ README.MD                     # Project documentation
    └─ docs/
-      ├─ index.html               # Main HTML file
-      ├─ tailwind.config.js     # Tailwind CSS configuration file (optional if using CDN)
-      ├─ styles/                       # Custom CSS styles
-      │  ├─ mobile.css           # Responsive styles for mobile devices
-      │  └─ styles.css             # General styling rules
+      ├─ index.html                 # Main HTML file
+      ├─ tailwind.config.js         # Tailwind CSS configuration file (optional if using CDN)
+      ├─ styles/                    # Custom CSS styles
+      │  ├─ mobile.css              # Responsive styles for mobile devices
+      │  └─ styles.css              # General styling rules
       ├─ images/                    # All project-related images
       │  ├─ fixed/
       │  ├─ hero/
@@ -51,5 +51,5 @@ A modern responsive website built using HTML5, Tailwind CSS (via CDN), and AOS a
       │  ├─ scene/
       │  └─ service-price/
       └─ videos/
-         └─ hero-bg.mp4    # Video used in the hero section background
+         └─ hero-bg.mp4            # Video used in the hero section background
 ```
